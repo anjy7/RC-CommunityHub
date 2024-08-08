@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "ts-node scripts/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "13.7.7",
+    "ts-morph": "^22.0.0",
+    "ts-node": "8.6.2",
+    "typescript": "5.3.3"
+  }
+}

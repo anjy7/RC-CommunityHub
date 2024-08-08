@@ -1,0 +1,7 @@
+i navbar-cms
+import {NavigationMenuDemo} from "navbar-cms"
+import navItems from "../../data/navigation"
+
+<main>
+<NavigationMenuDemo data={navItems} />
+</main>   
