@@ -8,9 +8,12 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.js" // Exclude JavaScript files
   ],
   "compilerOptions": {
+    "baseUrl": "../",
+    "outDir": "./dist", // Specify output directory
     "composite": false,
     "declaration": true,
     "declarationMap": true,
@@ -24,7 +27,7 @@
       "dom.iterable",
       "esnext"
     ],
-    "allowJs": true,
+    "allowJs": false, // Set to false if not needed
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -64,6 +67,7 @@
     ],
     "@payload-config": [
       "./payload.config.ts"
-    ]
+    ],
+    "@/src/*": ["../src/*"]
   }
 }

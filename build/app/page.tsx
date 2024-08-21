@@ -1,12 +1,11 @@
-// import Navbar from "./events/Navbar"
-import {NavigationMenuDemo} from "navbar-cms";
-import navItems from "../../data/navigation"
+import React from 'react';
+import { NavigationMenuDemo } from 'navbar-cms';
+import { navItems } from 'src/main';
 
-export default function Home() {
-
+export default function Main() {
   return (
     <>
-    <NavigationMenuDemo data={navItems} />
+<NavigationMenuDemo data={navItems} />
     </>
   );
-}
+};
