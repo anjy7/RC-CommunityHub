@@ -92,6 +92,9 @@ dependencies:
   encoding:
     specifier: ^0.1.13
     version: 0.1.13
+  esm:
+    specifier: ^3.2.25
+    version: 3.2.25
   faunadb:
     specifier: ^4.8.0
     version: 4.8.0(encoding@0.1.13)
@@ -108,8 +111,8 @@ dependencies:
     specifier: ^3.7.0
     version: 3.7.0(react@19.0.0-rc-06d0b89e-20240801)
   navbar-cms:
-    specifier: ^1.0.2
-    version: 1.0.2(@aws-sdk/client-sso-oidc@3.635.0)(@faceless-ui/scroll-info@2.0.0-beta.0)(@popperjs/core@2.11.8)(@swc/core@1.7.14)(@swc/types@0.1.12)(encoding@0.1.13)(monaco-editor@0.50.0)(next@15.0.0-canary.104)(react-dom@19.0.0-rc-06d0b89e-20240801)(react@19.0.0-rc-06d0b89e-20240801)(tailwind-merge@1.9.1)(tailwindcss-animate@1.0.5)(tailwindcss@3.2.4)(types-react-dom@19.0.0-rc.0)(types-react@19.0.0-rc.0)(typescript@5.4.5)(yjs@13.6.18)
+    specifier: ^1.0.3
+    version: 1.0.3(@aws-sdk/client-sso-oidc@3.635.0)(@faceless-ui/scroll-info@2.0.0-beta.0)(@popperjs/core@2.11.8)(@swc/core@1.7.14)(@swc/types@0.1.12)(encoding@0.1.13)(monaco-editor@0.50.0)(next@15.0.0-canary.104)(react-dom@19.0.0-rc-06d0b89e-20240801)(react@19.0.0-rc-06d0b89e-20240801)(tailwind-merge@1.9.1)(tailwindcss-animate@1.0.5)(tailwindcss@3.2.4)(types-react-dom@19.0.0-rc.0)(types-react@19.0.0-rc.0)(typescript@5.4.5)(yjs@13.6.18)
   next:
     specifier: 15.0.0-canary.104
     version: 15.0.0-canary.104(babel-plugin-react-compiler@0.0.0-experimental-592953e-20240517)(react-dom@19.0.0-rc-06d0b89e-20240801)(react@19.0.0-rc-06d0b89e-20240801)
@@ -6393,6 +6396,11 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
+  /esm@3.2.25:
+    resolution: {integrity: sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==}
+    engines: {node: '>=6'}
+    dev: false
+
   /esniff@2.0.1:
     resolution: {integrity: sha512-kTUIGKQ/mDPFoJ0oVfcmyJn4iBDRptjNVIzwIFR7tqWXdVI9xfA2RMwY/gbSpJG3lkdWNEjLap/NqVHZiJsdfg==}
     engines: {node: '>=0.10'}
@@ -7548,8 +7556,8 @@ packages:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
     dev: false
 
-  /navbar-cms@1.0.2(@aws-sdk/client-sso-oidc@3.635.0)(@faceless-ui/scroll-info@2.0.0-beta.0)(@popperjs/core@2.11.8)(@swc/core@1.7.14)(@swc/types@0.1.12)(encoding@0.1.13)(monaco-editor@0.50.0)(next@15.0.0-canary.104)(react-dom@19.0.0-rc-06d0b89e-20240801)(react@19.0.0-rc-06d0b89e-20240801)(tailwind-merge@1.9.1)(tailwindcss-animate@1.0.5)(tailwindcss@3.2.4)(types-react-dom@19.0.0-rc.0)(types-react@19.0.0-rc.0)(typescript@5.4.5)(yjs@13.6.18):
-    resolution: {integrity: sha512-l6LOQXQ/EpQIMjoAt+F/Eoz1jlpkD4s2pM4vvVc6gXN9EKZ4eTsYlbdzCO2L+44Mpy/i/ZrNNafjwb58Uxh69Q==}
+  /navbar-cms@1.0.3(@aws-sdk/client-sso-oidc@3.635.0)(@faceless-ui/scroll-info@2.0.0-beta.0)(@popperjs/core@2.11.8)(@swc/core@1.7.14)(@swc/types@0.1.12)(encoding@0.1.13)(monaco-editor@0.50.0)(next@15.0.0-canary.104)(react-dom@19.0.0-rc-06d0b89e-20240801)(react@19.0.0-rc-06d0b89e-20240801)(tailwind-merge@1.9.1)(tailwindcss-animate@1.0.5)(tailwindcss@3.2.4)(types-react-dom@19.0.0-rc.0)(types-react@19.0.0-rc.0)(typescript@5.4.5)(yjs@13.6.18):
+    resolution: {integrity: sha512-Mi3WTqQFsQz3W6gR/NIVfZH3wK2mmZiWTfPk2rGEx/kmcLjCeGytCgkAtFenKVGT287vhT2CGWlNYf0dklBjkw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
